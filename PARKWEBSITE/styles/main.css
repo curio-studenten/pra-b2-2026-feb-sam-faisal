@@ -23,7 +23,6 @@ body, html{
   margin: 0 auto;
 }
 
-
 header{
   background: url('../images/park01.jpg');
   background-size: cover;
@@ -70,13 +69,13 @@ h2{
 main{
   padding: 1em;
 }
-/* ticket 4 */
+
+/* Ticket 4 */
 .row{
   display: flex;
   flex-direction: wrap;
-  gap: 1rem;
+  gap: 1em;
 }
-
 
 table{
   margin-top: 1em;
@@ -128,6 +127,7 @@ article h2.rides{
 }
 article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
+  
 }
 
 .product{
