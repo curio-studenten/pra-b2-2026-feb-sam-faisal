@@ -67,6 +67,10 @@ h2{
   padding-left: 10px;
 }
 
+button{
+  cursor: pointer;
+}
+
 main{
   padding: 1em;
 }
@@ -171,6 +175,26 @@ button{
   font-weight: bold;
 }
 
+.product-detail{
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+}
+
+.product-image{
+  flex: 0 0 40%;
+  text-align: center;
+}
+
+.product-image img{
+  width: 100%;
+  max-width: 300px;
+}
+
+.product-info{
+  flex: 1;
+}
+
 .payment-option{
   height: 64px;
 }
@@ -204,9 +228,14 @@ footer{
   ##Screen = B/w 320px to 479px
   Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 */
-
+/* T9 */
 @media (max-width: 480px) {
-
+  .hidden-on-lg{
+    display: block;
+  }
+  .hidden-on-sm{
+    display: none;
+  }
 }
 
 /* 
@@ -232,13 +261,14 @@ footer{
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
 */
+/* T10 */
 @font-face {
   font-family: 'Heartbeat';
-  src:  url('fonts/heartbeat.eot') format('eot'),
-        url('fonts/heartbeat.otf') format('otf'),
-        url('fonts/heartbeat.woff') format('woff'),
-        url('fonts/heartbeat.svg') format('svg'),
-        url('fonts/heartbeat.ttf') format('ttf');
+  src:  url('../fonts/heartbeat.eot') format('eot'),
+        url('../fonts/heartbeat.otf') format('otf'),
+        url('../fonts/heartbeat.woff') format('woff'),
+        url('../fonts/heartbeat.svg') format('svg'),
+        url('../fonts/heartbeat.ttf') format('ttf');
 }
 
 /*
