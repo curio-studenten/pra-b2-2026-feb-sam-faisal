@@ -199,8 +199,17 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
+/* ticket 14 */
+.wrapper h2 {
+    text-align: left;
 }
+.sidy-by-side{
+  display: flex;
+  flex-wrap: wrap;            
+  gap: 1rem;                   
+  justify-content: space-between;
+}
+
 
 .description{
   flex: 1;
